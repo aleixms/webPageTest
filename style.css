@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:  monospace;
+  
+}
+body{
+    background-image: linear-gradient(to right, rgb(181, 85, 152), rgb(198, 213, 145));
+}
+
+.title{
+
+}
+.container {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+  
+}
+
+
+.menu {
+    background-color: rgb(48, 40, 40);
+    border-radius: 40px;
+    width: 100%;
+    height: 100px;
+
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu ul li {
+    margin: 0 10px;
+    line-height: 100px;
+    font-size: 14px;
+}
+
+.menu ul li a {
+    color: white;
+    text-transform: uppercase;
+}
+
+
+.menu ul li img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+.aboutme {
+    width: 100%;
+
+}
+
+.aboutme img {
+    width: 100%;
+
+}
+
+.aboutme .contenido {
+    text-align: center;
+    font-size: 18
+px;
+}
+
+.aboutme .contenido h1 {
+    font-size: 34px;
+    margin: 10px 0px;
+}
+
+.tittleskills{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+}
+    
+.containerskill {
+    width: 100%;
+    
+}
+
+.nombreskill{
+    font-size: 25px;
+}
+.containerskill .skillshtml {
+    background-color: rgb(91, 178, 96);
+    animation: skillbarhtml 2s forwards;
+    border-radius: 5px;
+    height: 10px;
+    margin: 10px 0px;
+    
+}
+
+.containerskill .skillscss {
+    background-color: rgb(208, 103, 58);
+    animation: skillbarcss 2s forwards;
+    border-radius: 5px;
+    height: 10px;
+    margin: 10px 0px;
+  
+}
+
+.containerskill .skillsjs {
+    background-color: rgb(243, 243, 153);
+    animation: skillbarjs 2s forwards;
+    border-radius: 5px;
+    height: 10px;
+    margin: 10px 0px;
+    
+}
+
+@keyframes skillbarhtml {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+
+}
+
+
+@keyframes skillbarcss {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+
+}
+
+
+@keyframes skillbarjs {
+
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+.container main{
+    margin-bottom: 100px;
+}
+.contact{
+   
+    background-color: rgba(240, 212, 237, 0.332);
+    width: 50%;
+    margin: 0 auto;
+   border-radius: 20px ;
+}
+
+.contact h2{
+
+   
+    text-align: center;
+    color: rgb(60, 52, 52);
+    margin:  20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+#hello{
+    width: 100%;
+}  
+
+.group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.group input, .group textarea{
+    width: 50%;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+    border-color: rgb(255, 255, 255);
+
+}
+
+.group input:focus, .group textarea:focus{
+    border : 2px solid rgb(54, 35, 50);
+   
+}
+
+.group .btn{
+    margin: 10px 5px;
+    width: 25%;
+    background-color: rgb(54, 35, 50);
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+
+@media(max-width: 500px){
+    .contact{
+        width: 90%;
+    }
+    .group .btn{
+        font-weight:lighter;
+        font-size: 10px;
+        width: 35%
+    }
+}
+
+.mifoto{
+    margin-top: 50px;
+    border-radius: 70px;
+   
+
+
+}
+.imagegit{
+   display:flex;
+   justify-content: space-around;
+   margin: 10px;
+   max-width: 100%;
+   
+}
+@media screen and (min-width:300px) and (max-width:800px) {
+    body{font-size:0.8em;}
+    sidebar{display:none;}
+    }
+.ask{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 10px 10px;
+    font-size: 20px;
+    color: rgb(60, 52, 52)
+}
+
+
+    
+   
+
+
+.input{
+   display: flex;
+   justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.imageslink{
+    display: flex;
+    justify-content: center;
+}
+
+
+.one{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.input{
+    margin: 5px;
+}
