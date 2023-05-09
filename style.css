@@ -56,6 +56,7 @@ body{
     max-width: 100%;
 }
 
+
 .aboutme {
     width: 100%;
     margin-top: 150px;
@@ -93,7 +94,7 @@ body{
 
 .containerskill .skillshtml {
     background-color: rgb(91, 178, 96);
-    animation: skillbarhtml 3s forwards;
+    animation: skillbarhtml 5s forwards;
     border-radius: 5px;
     height: 10px;
     margin: 10px 0px;
@@ -101,7 +102,7 @@ body{
 
 .containerskill .skillscss {
     background-color: rgb(208, 103, 58);
-    animation: skillbarcss 2s forwards;
+    animation: skillbarcss 4s forwards;
     border-radius: 5px;
     height: 10px;
     margin: 10px 0px;
@@ -109,7 +110,7 @@ body{
 
 .containerskill .skillsjs {
     background-color: rgb(243, 243, 153);
-    animation: skillbarjs 3s forwards;
+    animation: skillbarjs 5s forwards;
     border-radius: 5px;
     height: 10px;
     margin: 10px 0px;
@@ -156,6 +157,7 @@ body{
     width: 55%;
     margin: 0 auto;
     border-radius: 20px ;
+    margin-top: -235px;
 }
 
 .contact h2{
@@ -239,7 +241,9 @@ body{
     margin: 10px 10px;
     font-size: 20px;
     color: rgb(56, 52, 60);
-    padding: 20px 250px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
 }
 
 .input{
@@ -266,3 +270,32 @@ body{
     margin: 8px;
 }
 
+@media (max-width: 800px) {
+    .avatarcontainer {
+        max-width: 35vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+  
+  @media (min-width: 800px) and (max-width: 1280px) {
+    .avatarcontainer {
+        max-width: 45vh;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .avatarcontainer {
+        max-width: 45vh;
+        margin-left: auto;
+        margin-right: auto;    }
+  }
+  @media (width < 500px) {
+    .avatarcontainer {
+        max-width: 35vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
